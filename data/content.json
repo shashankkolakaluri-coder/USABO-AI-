@@ -1,0 +1,117 @@
+{
+  "_note": "PLACEHOLDER content for frontend testing only. Ch6 has a few sample items to exercise the UI; Ch7-10 are stubs. This entire file will be replaced by the full generated content.json (5 chapters, 30-item practice pools, 15-item tests, full flashcard sets) in the next build step.",
+  "chapters": [
+    {
+      "id": "ch6",
+      "number": 6,
+      "title": "A Tour of the Cell",
+      "topics": [
+        "Microscopy & Cell Theory",
+        "Prokaryotic vs Eukaryotic Cells",
+        "The Endomembrane System",
+        "Mitochondria & Chloroplasts (Endosymbiosis)",
+        "The Cytoskeleton"
+      ],
+      "summary": [
+        "Cells are the basic unit of life, and everything a cell does comes down to structures working together inside a very small space. Biologists study cells using microscopes: light microscopes let us see general shapes and movement in living cells, while electron microscopes reveal fine internal detail but require cells to be preserved first, so they can't be used on living samples.",
+        "All cells fall into one of two broad categories. Prokaryotic cells (bacteria and archaea) are small and lack a nucleus — their DNA sits in a nucleoid region without a surrounding membrane. Eukaryotic cells (plants, animals, fungi, protists) are larger and organize their DNA inside a true, membrane-bound nucleus, along with many other membrane-bound organelles.",
+        "Much of a eukaryotic cell's internal traffic runs through the endomembrane system: the nuclear envelope, endoplasmic reticulum, Golgi apparatus, lysosomes, and vesicles that shuttle material between them. Proteins made in the rough ER (studded with ribosomes) are often modified and sorted in the Golgi before being packaged into vesicles headed for the cell surface or elsewhere.",
+        "Mitochondria and chloroplasts don't quite fit that system. Both have their own small circular DNA and a double membrane, which is strong evidence for the endosymbiotic theory: these organelles likely began as free-living prokaryotes that were engulfed by an ancestral cell and eventually became permanent, interdependent residents rather than being digested.",
+        "Finally, the cytoskeleton — a network of protein filaments including microtubules, microfilaments, and intermediate filaments — gives a cell its shape, lets it move materials internally, and in many cases lets the whole cell move or divide. It is dynamic, constantly assembling and disassembling as the cell's needs change."
+      ],
+      "teachingQuestions": [
+        {
+          "question": "Why can't electron microscopes be used to observe living cells?",
+          "choices": [
+            "They require the sample to be placed in a vacuum and typically fixed/stained first",
+            "They are too expensive for routine lab use",
+            "They can only image cells larger than 100 micrometers",
+            "They only work on cells that contain chlorophyll"
+          ],
+          "correctIndex": 0,
+          "explanation": "Electron microscopy requires a vacuum and sample preparation (fixing, often staining or coating), which kills the specimen — so it's used for structural detail, not for watching live processes."
+        },
+        {
+          "question": "What is the defining structural difference between prokaryotic and eukaryotic cells?",
+          "choices": [
+            "Eukaryotic cells have a membrane-bound nucleus; prokaryotic cells do not",
+            "Only eukaryotic cells have a cell membrane",
+            "Prokaryotic cells are always multicellular",
+            "Only prokaryotic cells contain ribosomes"
+          ],
+          "correctIndex": 0,
+          "explanation": "The presence of a true, membrane-enclosed nucleus (and other membrane-bound organelles) is the key feature separating eukaryotes from prokaryotes."
+        },
+        {
+          "question": "A secreted protein is made on the rough ER. What is the most likely next stop before it leaves the cell?",
+          "choices": [
+            "The Golgi apparatus, for modification and sorting",
+            "The nucleolus, for ribosome assembly",
+            "The mitochondrial matrix",
+            "Direct release through the nuclear pore"
+          ],
+          "correctIndex": 0,
+          "explanation": "Proteins destined for secretion typically move from the rough ER to the Golgi apparatus, where they're modified and sorted into vesicles for export."
+        },
+        {
+          "question": "Which piece of evidence most directly supports the endosymbiotic origin of mitochondria?",
+          "choices": [
+            "Mitochondria have their own circular DNA and a double membrane, similar to bacteria",
+            "Mitochondria are found only in plant cells",
+            "Mitochondria are larger than the nucleus",
+            "Mitochondria lack any internal membranes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Circular DNA, their own ribosomes, and a double membrane are hallmarks mitochondria share with free-living bacteria, supporting the theory that they were once independent prokaryotes."
+        },
+        {
+          "question": "Which cytoskeletal component is primarily responsible for the tracks used in intracellular vesicle transport?",
+          "choices": [
+            "Microtubules",
+            "Intermediate filaments",
+            "The nuclear lamina",
+            "The plasma membrane"
+          ],
+          "correctIndex": 0,
+          "explanation": "Microtubules act as tracks for motor proteins (like kinesin and dynein) that carry vesicles and organelles around the cell."
+        }
+      ],
+      "flashcards": [
+        { "term": "Prokaryotic cell", "definition": "A cell without a membrane-bound nucleus; DNA sits in a nucleoid region. Found in bacteria and archaea." },
+        { "term": "Eukaryotic cell", "definition": "A cell with a true, membrane-bound nucleus and other membrane-bound organelles." },
+        { "term": "Nucleoid", "definition": "The region in a prokaryotic cell where the DNA is concentrated, without a surrounding membrane." },
+        { "term": "Endomembrane system", "definition": "The group of membranes and organelles (ER, Golgi, lysosomes, vesicles, nuclear envelope) that work together to modify, sort, and transport proteins and lipids." },
+        { "term": "Rough ER", "definition": "Endoplasmic reticulum studded with ribosomes; site of synthesis for proteins destined for secretion or membranes." },
+        { "term": "Smooth ER", "definition": "Endoplasmic reticulum without ribosomes; involved in lipid synthesis and detoxification." },
+        { "term": "Golgi apparatus", "definition": "Stack of membranes that modifies, sorts, and packages proteins and lipids received from the ER." },
+        { "term": "Lysosome", "definition": "Membrane-bound organelle containing digestive enzymes used to break down macromolecules and damaged organelles." },
+        { "term": "Mitochondrion", "definition": "Double-membraned organelle that produces ATP through cellular respiration; contains its own DNA." },
+        { "term": "Chloroplast", "definition": "Double-membraned, DNA-containing organelle in plant and algal cells where photosynthesis occurs." },
+        { "term": "Endosymbiotic theory", "definition": "The theory that mitochondria and chloroplasts originated as free-living prokaryotes engulfed by an ancestral eukaryotic cell." },
+        { "term": "Cytoskeleton", "definition": "A dynamic network of protein filaments that gives a cell shape, supports internal transport, and enables movement." },
+        { "term": "Microtubule", "definition": "Largest cytoskeletal filament, built from tubulin; forms tracks for motor proteins and structures like cilia/flagella." },
+        { "term": "Microfilament", "definition": "Thin cytoskeletal filament built from actin; involved in cell shape and movement." },
+        { "term": "Intermediate filament", "definition": "Rope-like cytoskeletal filament that provides mechanical strength and anchors organelles in place." }
+      ],
+      "practicePool": [
+        { "question": "Which structure is present in both prokaryotic and eukaryotic cells?", "choices": ["Ribosomes", "Nucleus", "Mitochondria", "Golgi apparatus"], "correctIndex": 0, "explanation": "Both cell types have ribosomes, though eukaryotic ribosomes are somewhat larger; only eukaryotes have a true nucleus and membrane-bound organelles." },
+        { "question": "What best describes the role of the nuclear envelope?", "choices": ["It separates the cell's DNA from the cytoplasm and regulates molecular traffic via pores", "It produces ATP for the cell", "It synthesizes lipids exclusively", "It digests damaged organelles" ], "correctIndex": 0, "explanation": "The nuclear envelope encloses the DNA and controls what molecules move in and out through nuclear pores." },
+        { "question": "A cell that secretes large amounts of digestive enzymes would likely have an abundance of which organelle?", "choices": ["Rough ER", "Peroxisome", "Centriole", "Nucleolus"], "correctIndex": 0, "explanation": "Rough ER is the main site for synthesizing proteins meant for secretion." },
+        { "question": "Which organelle is the primary site of ATP production via oxidative phosphorylation?", "choices": ["Mitochondrion", "Chloroplast", "Lysosome", "Peroxisome"], "correctIndex": 0, "explanation": "Mitochondria house the electron transport chain and ATP synthase used in oxidative phosphorylation." },
+        { "question": "Cilia and flagella are built primarily from which cytoskeletal component?", "choices": ["Microtubules", "Microfilaments", "Intermediate filaments", "Cellulose fibers"], "correctIndex": 0, "explanation": "Cilia and flagella have a core structure of microtubules arranged in a characteristic pattern." },
+        { "question": "What is a key piece of evidence for the endosymbiotic origin of chloroplasts?", "choices": ["They contain their own circular DNA, similar to cyanobacteria", "They are found in every eukaryotic cell", "They lack any internal membranes", "They are smaller than ribosomes"], "correctIndex": 0, "explanation": "Chloroplast DNA and ribosomes resemble those of cyanobacteria, supporting an endosymbiotic origin." }
+      ],
+      "test": [
+        { "type": "mcq", "question": "Which of the following is unique to eukaryotic cells?", "choices": ["Membrane-bound organelles", "Ribosomes", "A plasma membrane", "DNA"], "correctIndex": 0, "explanation": "Only eukaryotic cells compartmentalize their contents using membrane-bound organelles." },
+        { "type": "mcq", "question": "The nucleolus is primarily involved in the assembly of:", "choices": ["Ribosomal subunits", "Lysosomal enzymes", "Cytoskeletal filaments", "Mitochondrial DNA"], "correctIndex": 0, "explanation": "The nucleolus is where ribosomal RNA is synthesized and assembled with proteins into ribosomal subunits." },
+        { "type": "free", "question": "Explain why the endosymbiotic theory is well-supported by evidence from mitochondrial structure and genetics.", "answerKey": "Mitochondria have a double membrane (consistent with engulfment by phagocytosis), their own circular DNA similar to bacterial DNA, their own ribosomes resembling bacterial ribosomes in size, and they replicate independently by a process similar to binary fission.", "rubricNotes": ["Mentions double membrane as evidence of engulfment", "Mentions circular DNA similar to bacteria", "Mentions bacteria-like ribosomes and/or independent replication"] },
+        { "type": "free", "question": "Describe the pathway a secreted protein takes from synthesis to release from the cell, naming the organelles involved in order.", "answerKey": "The protein is synthesized by ribosomes on the rough ER and enters the ER lumen, is transported via vesicle to the Golgi apparatus for modification and sorting, and is then packaged into a secretory vesicle that fuses with the plasma membrane to release the protein outside the cell.", "rubricNotes": ["Starts at rough ER", "Passes through Golgi apparatus for modification/sorting", "Ends with vesicle fusion at the plasma membrane (exocytosis)"] },
+        { "type": "free", "question": "Compare the structural roles of microtubules, microfilaments, and intermediate filaments in the cytoskeleton.", "answerKey": "Microtubules are the thickest filaments and act as tracks for motor-protein-based transport and form structures like cilia/flagella and the mitotic spindle. Microfilaments are thin actin filaments involved in cell shape changes, muscle contraction, and cytokinesis. Intermediate filaments are rope-like fibers that provide mechanical strength and anchor organelles like the nucleus in place.", "rubricNotes": ["Correctly describes microtubule role (transport tracks/spindle/cilia)", "Correctly describes microfilament role (shape/movement/contraction)", "Correctly describes intermediate filament role (mechanical strength/anchoring)"] }
+      ]
+    },
+    { "id": "ch7", "number": 7, "title": "Membrane Structure & Function", "topics": ["Fluid Mosaic Model", "Membrane Permeability", "Passive Transport & Diffusion", "Osmosis & Tonicity", "Active Transport, Endocytosis & Exocytosis"], "summary": [], "teachingQuestions": [], "flashcards": [], "practicePool": [], "test": [] },
+    { "id": "ch8", "number": 8, "title": "Introduction to Metabolism", "topics": ["Forms of Energy & Thermodynamics", "Free Energy (ΔG)", "ATP & Energy Coupling", "Enzyme Structure & Catalysis", "Enzyme Regulation"], "summary": [], "teachingQuestions": [], "flashcards": [], "practicePool": [], "test": [] },
+    { "id": "ch9", "number": 9, "title": "Cellular Respiration & Fermentation", "topics": ["Redox & Electron Carriers", "Glycolysis", "Pyruvate Oxidation & Citric Acid Cycle", "Oxidative Phosphorylation & Chemiosmosis", "Fermentation & Anaerobic Respiration"], "summary": [], "teachingQuestions": [], "flashcards": [], "practicePool": [], "test": [] },
+    { "id": "ch10", "number": 10, "title": "Photosynthesis", "topics": ["Chloroplast Structure & Overview Equation", "Light & Photosynthetic Pigments", "Light Reactions & Photosystems", "Calvin Cycle", "Photorespiration, C4 & CAM Plants"], "summary": [], "teachingQuestions": [], "flashcards": [], "practicePool": [], "test": [] }
+  ]
+}
