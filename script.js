@@ -225,8 +225,13 @@ function render() {
 // ---------- teaching layer ----------
 
 function renderTeaching(app, chapter) {
+  const summary = chapter.summary || [];
   const card = el("div", { class: "card summary-block" });
-  (chapter.summary || []).forEach((para) => card.appendChild(el("p", {}, para)));
+  if (summary.length === 0) {
+    card.appendChild(el("p", { class: "empty-note" }, "Content coming soon."));
+  } else {
+    summary.forEach((para) => card.appendChild(el("p", {}, para)));
+  }
   app.appendChild(card);
 
   if (!state.teachingAnswers[chapter.id]) {
@@ -235,10 +240,14 @@ function renderTeaching(app, chapter) {
     ).fill(null);
   }
   const answers = state.teachingAnswers[chapter.id];
+  const teachingQuestions = chapter.teachingQuestions || [];
 
   const qCard = el("div", { class: "card" });
   qCard.appendChild(el("h3", {}, "Check your understanding"));
-  (chapter.teachingQuestions || []).forEach((q, qi) => {
+  if (teachingQuestions.length === 0) {
+    qCard.appendChild(el("p", { class: "empty-note" }, "Content coming soon."));
+  }
+  teachingQuestions.forEach((q, qi) => {
     const block = el("div", { class: "question-block" });
     block.appendChild(el("h4", {}, `${qi + 1}. ${q.question}`));
     const list = el("ul", { class: "choice-list" });
